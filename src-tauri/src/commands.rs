@@ -122,7 +122,7 @@ pub async fn add_partitions(
 // 查看消费组 offset + lag
 #[command]
 pub fn consumer_lag(
-    broker: String,
+    broker: String
     // group_id: String,
     // topic: String,
 ) -> Result<serde_json::Value, String> {
